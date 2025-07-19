@@ -4,9 +4,9 @@ PS C:\Users\kyoyo\Desktop> mkdir git_challenge
 
 d-----        2025/07/19     18:18                git_challenge                                                                             
 
-PS C:\Users\kyoyo\Desktop> git init
-Initialized empty Git repository in C:/Users/kyoyo/Desktop/.git/
 PS C:\Users\kyoyo\Desktop> cd git_challenge
+PS C:\Users\kyoyo\Desktop\git_challenge> git init
+Initialized empty Git repository in C:/Users/kyoyo/Desktop/git_challenge/.git/
 PS C:\Users\kyoyo\Desktop\git_challenge> new-item hellow_world.txt
 
 
@@ -15,7 +15,7 @@ PS C:\Users\kyoyo\Desktop\git_challenge> new-item hellow_world.txt
 
 Mode                 LastWriteTime         Length Name                                                                                      
 ----                 -------------         ------ ----                                                                                      
--a----        2025/07/19     18:19              0 hellow_world.txt                                                                          
+-a----        2025/07/19     18:19              0 hello_world.txt                                                                          
 
 
 PS C:\Users\kyoyo\Desktop\git_challenge> echo "Hello, world!" >> hello_world.txt
