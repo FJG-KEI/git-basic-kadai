@@ -18,13 +18,13 @@ Mode                 LastWriteTime         Length Name
 -a----        2025/07/19     18:19              0 hellow_world.txt                                                                          
 
 
-PS C:\Users\kyoyo\Desktop\git_challenge> echo "Hellow, world!" >> hellow_world.txt
+PS C:\Users\kyoyo\Desktop\git_challenge> echo "Hello, world!" >> hello_world.txt
 PS C:\Users\kyoyo\Desktop\git_challenge> git add .
 PS C:\Users\kyoyo\Desktop\git_challenge> git commit -m "hello_world.txtを追加"
 [main (root-commit) cc494ca] hello_world.txtを追加
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 git_challenge/hellow_world.txt
-PS C:\Users\kyoyo\Desktop\git_challenge> echo "にんちには、世界！" >> hellow_world.txt
+PS C:\Users\kyoyo\Desktop\git_challenge> echo "こんにちは、世界！" >> hello_world.txt
 PS C:\Users\kyoyo\Desktop\git_challenge> git add .
 PS C:\Users\kyoyo\Desktop\git_challenge> git commit -m "日本語訳を追記"
 [main a64c8aa] 日本語訳を追記
