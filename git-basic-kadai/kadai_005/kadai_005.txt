@@ -1,0 +1,35 @@
+PS C:\Users\kyoyo\Desktop> mkdir git_challenge
+
+    ディレクトリ: C:\Users\kyoyo\Desktop
+
+d-----        2025/07/19     18:18                git_challenge                                                                             
+
+PS C:\Users\kyoyo\Desktop> git init
+Initialized empty Git repository in C:/Users/kyoyo/Desktop/.git/
+PS C:\Users\kyoyo\Desktop> cd git_challenge
+PS C:\Users\kyoyo\Desktop\git_challenge> new-item hellow_world.txt
+
+
+    ディレクトリ: C:\Users\kyoyo\Desktop\git_challenge
+
+
+Mode                 LastWriteTime         Length Name                                                                                      
+----                 -------------         ------ ----                                                                                      
+-a----        2025/07/19     18:19              0 hellow_world.txt                                                                          
+
+
+PS C:\Users\kyoyo\Desktop\git_challenge> echo "Hellow, world!" >> hellow_world.txt
+PS C:\Users\kyoyo\Desktop\git_challenge> git add .
+PS C:\Users\kyoyo\Desktop\git_challenge> git commit -m "hello_world.txtを追加"
+[main (root-commit) cc494ca] hello_world.txtを追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 git_challenge/hellow_world.txt
+PS C:\Users\kyoyo\Desktop\git_challenge> echo "にんちには、世界！" >> hellow_world.txt
+PS C:\Users\kyoyo\Desktop\git_challenge> git add .
+PS C:\Users\kyoyo\Desktop\git_challenge> git commit -m "日本語訳を追記"
+[main a64c8aa] 日本語訳を追記
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\kyoyo\Desktop\git_challenge> git log --oneline
+a64c8aa (HEAD -> main) 日本語訳を追記
+cc494ca hello_world.txtを追加
+PS C:\Users\kyoyo\Desktop\git_challenge> 
